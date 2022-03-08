@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de">
+<head>
+<!-- Required meta tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="language" content="de"> 
+<meta name="author"  content="Jonas Fertig">
+<meta name="date" content="2018-12-07T20:26:37+01:00"> 
+<meta name="keywords" content="Parkhaus"> 
+<meta name="description" content="schlurgi, guggenmusik"> 
+<meta name="robots" content="index,follow"> 
+<meta name="audience" content="alle"> 
+<meta name="page-topic" content="Verein"> 
+<meta name="revisit-after" CONTENT="7 days">
+<meta name="expires" content="0"> 
+<!-- fontawesome icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" >
+<!-- CSS -->
+<link rel="stylesheet" href="../css/default.css" >
+<title>Bus fährt um 2</title>
+</head>
+<body>
+<header>
+Bus fährt um 2
+</header>
+<!-- Content -->
+<div>
+    <audio autoplay loop preload="auto" id="ausmarsch">
+        <source src="../audio/ausmarsch.mpeg" type="audio/mpeg">
+      </audio>
+<canvas id="gamecanvas" onclick="onspace()"></canvas>
+<div class="buttons">
+	<button id = "start" type="button" onclick="pressStart()">Start</button>
+	<button id = "sound" type="button" onclick="pressMusic()">Sound</button>
+</div>
+</div>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="../js/spawner.js"></script>
+	<script src="../js/game.js"></script>
+	<script src="../js/buttons.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+</body>
+</html>
